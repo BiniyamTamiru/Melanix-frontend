@@ -1321,3 +1321,50 @@ body {
     display: none;
   }
 }
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between search, account, and cart */
+}
+
+.nav-search {
+  display: flex;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 2px 8px;
+}
+
+.icon-link {
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  color: #333;
+}
+
+/* Cart Badge Styling */
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: #ff4757;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+/* Responsive adjustment: hide search on small screens if needed */
+@media (max-width: 768px) {
+  .nav-links, .nav-search {
+    display: none;
+  }
+}
