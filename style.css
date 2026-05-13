@@ -1099,6 +1099,9 @@
   font-size: 11px;
   color: #666;
 }
+/* ================================
+   🔥 GLOBAL RESPONSIVE FIX (IMPORTANT)
+================================ */
 img {
   max-width: 100%;
   height: auto;
